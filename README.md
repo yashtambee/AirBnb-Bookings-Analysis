@@ -1,21 +1,34 @@
 # AirBnb-Bookings-Analysis
 ![ab](https://user-images.githubusercontent.com/121399834/210103311-860a8320-b9e8-451e-b5d4-18c16f3b8097.jpeg)
-### Abstract : Since 2008, guests and hosts have used Airbnb to expand on travelling possibilities and present a more unique, personalised way of experiencing the world. Today, Airbnb became one of a kind service that is used and recognized by the whole world. Data analysis on millions of listings provided through Airbnb is a crucial factor for the company. These millions of listings generate a lot of data - data that can be analysed and used for security, business decisions, understanding of customers and providers (hosts) behaviour and performance on the platform, guiding marketing initiatives, implementation of innovative additional services and much more. This dataset has around 49,000 observations in it with 16 columns and it is a mix of categorical and numeric values. Explore and analyse the data to discover key understandings
-#
-### Business Objective : To analyze the AirBnb dataset & discover key understandings for below mentioned criteria
+### Introduction
+In order to learn more about the characteristics of the listings, the demand for various kinds of properties, and the variables that affect pricing, this project will perform an Exploratory Data Analysis (EDA) of AirBnB bookings. 
+Both AirBnB hosts and guests, as well as politicians and researchers who are interested in the sharing economy, can benefit from the conclusions drawn from this analysis.
 
-➜ Which are the most well known hosts?
+### Data
+The dataset used in this project contains information on AirBnb listings in a particular city, including features such as the type of property, number of bedrooms, number of bathrooms, and price. 
+The data has been preprocessed and cleaned to handle missing values.
 
-➜ Which location group has the maximum number of private rooms, shared rooms and entire home/ apartment?
+### Analysis
+Exploratory Data Analysis (EDA) is used by the project to comprehend the data and spot patterns and trends. 
 
-➜ Top 10 expensive listings?
+To depict the distribution of various variables and their correlations, the EDA uses visualisations including histograms, bar charts, heatmaps and scatter plots. In order to find significant variations across sets of observations, statistical tests are also included in the study.
 
-➜ Top 10 cheapest listings?
+### Dependencies
+The project requires the following dependencies to be installed:
 
-➜ Correlation of minimum nights, number of reviews, reviews per month & calculated host listing count with price.
+- Python 3.0
+- pandas
+- numpy
+- matplotlib
+- plotly
 
-➜ Which neighbourhood group has maximum no of listings? And also detect, from that particular neighbourhood group having maximum no of listings, which neighbourhood (area) has maximum no of listed properties?
+### Usage
+1. Clone or download the repository
+2. Install the required dependencies
+3. Run the command jupyter notebook to open the jupyter notebook
+4. Open the notebook AirBnb_Booking_Analysis.ipynb to see the analysis
 
-➜ Is there any noticeable difference of traffic among different areas and what could be the reason for it?
+### Conclusion
+The qualities of the listings, the demand for various types of properties, and the variables that affect pricing can all be learned by exploratory data analysis of AirBnB reservations. 
 
-➜ Which listing is of no use or adds no value to the company ?
+AirBnb hosts may use these revelations to enhance their listings and pricing tactics, visitors can use them to decide where to book wisely, and politicians and scholars can use them to comprehend how the sharing economy is affecting housing markets.
